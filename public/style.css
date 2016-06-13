@@ -2,14 +2,19 @@ header {
     background:
 
     linear-gradient(
-      rgba(255, 0, 0, 0.60), 
-      rgba(255, 0, 0, 0.60)),
+      rgba(0, 0, 255, 0.60), 
+      rgba(0, 0, 255, 0.60)),
     
     url("http://www.toledoblade.com/image/2011/02/13/800x_b1_cCM_z/Plan-to-move-Raceway-Park-threatens-a-local-tradition-dating-to-19th-century-2.jpg");
       text-align: center;
       background-size: cover;
-      color: black;
-      height: 150px;
+      color: white;
+      height: 200px;
+      font-family: helvetica;
+      font-size: 40px;
+    }
+    body {
+      font-family: helvetica;
     }
     a {
       color: black;
@@ -18,7 +23,10 @@ header {
       padding: 10px;
     }
     h1 {
-      font-size: 50px;
+      font-size: 80px;
+    }
+    h2 {
+      font-size: 30px;
     }
     img {
       margin: 40px 0px 0px 0px;
@@ -29,10 +37,17 @@ header {
       padding: 10px;
       background: red;
     }
+    ol {
+      padding: 10px;
+      background: red;
+    }
     li {
       /*display: inline;*/
       padding: 0px 50px 0px 10px;
     }
     .menulist li {
-      display: inline;
+      display: inline; 
+    }
+    label {
+      width: 100px; display: inline-block;
     }

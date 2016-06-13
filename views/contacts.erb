@@ -1,10 +1,10 @@
-<h1>These are all the faces in your crowd:</h1>
+<h2>These are the faces in your crowd:</h2>
 
 <ol>
 <% Contact.all.each do |contact| %>
   <li>
-  	<a href="/contacts/<%= contact.id %>"><%= contact.full_name %></a> |
-  	<a href="/contacts/<%= contact.id %>/edit">EDIT</a>
+  	<a href="/contacts/<%= contact.id %>"><%= contact.full_name %></a> &nbsp;
+  	<a href="/contacts/<%= contact.id %>/edit"><button name="button">EDIT</button></a>
   </li>
 <% end %>
 </ol>
